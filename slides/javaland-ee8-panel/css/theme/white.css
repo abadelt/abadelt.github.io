@@ -31,6 +31,16 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     position: absolute;
     bottom: 8px;
     left: 16px;
+}  
+  .bottomright {
+    position: absolute;
+    bottom: 16px;
+    right: 160px;
+
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #222;
 }
 
 /*********************************************
@@ -119,7 +129,7 @@ body {
 .reveal ol,
 .reveal dl,
 .reveal ul {
-  display: inline-block;
+  display: block;
   text-align: left;
   margin: 0 0 0 1em; }
 
